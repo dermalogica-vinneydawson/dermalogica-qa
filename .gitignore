@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+qa-dashboard/node_modules/
+
+# Build artifacts
+dist/
+qa-dashboard/dist/
+
+# Test output (regenerated on every run)
+reports/
+screenshots/
+test-results/
+playwright-report/
+blob-report/
+playwright/.auth/
+
+# Environment & secrets
+.env
+
+# Logs & debug files
+*.log
+test_output.txt
+test_run.log
+test_run_full.log
+errors.txt
+
+# Debug screenshots
+mobile-search-debug.png
+
+# Large reference files (not needed in CI)
+header.html
+Navattic web Mar 2026/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Claude / Gemini local tooling
+.claude/
+.mcp.json

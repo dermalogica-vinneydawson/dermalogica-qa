@@ -1,0 +1,43 @@
+{
+  "name": "website-qa-agent",
+  "version": "1.0.0",
+  "description": "Dermalogica.com website QA agent powered by Playwright",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:homepage": "npx playwright test tests/homepage-navigation.spec.ts",
+    "test:products": "npx playwright test tests/product-discovery.spec.ts tests/product-detail.spec.ts",
+    "test:cart": "npx playwright test tests/shopping-cart.spec.ts",
+    "test:checkout": "npx playwright test tests/checkout-flow.spec.ts",
+    "test:accounts": "npx playwright test tests/account-pages.spec.ts",
+    "test:content": "npx playwright test tests/content-pages.spec.ts",
+    "test:performance": "npx playwright test tests/performance.spec.ts",
+    "test:a11y": "npx playwright test tests/accessibility.spec.ts",
+    "test:seo": "npx playwright test tests/seo.spec.ts",
+    "test:mobile": "npx playwright test tests/mobile-responsive.spec.ts",
+    "test:happy-path": "npx playwright test --grep @happy-path",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "report": "npx playwright show-report reports/html"
+  },
+  "keywords": [
+    "qa",
+    "playwright",
+    "dermalogica",
+    "e-commerce",
+    "testing"
+  ],
+  "author": "Vinney Dawson",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.1",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1"
+  }
+}

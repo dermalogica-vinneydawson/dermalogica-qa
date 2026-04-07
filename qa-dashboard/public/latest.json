@@ -1,0 +1,1746 @@
+{
+  "timestamp": "2026-04-07T00:36:30.433Z",
+  "duration": 3518974,
+  "totals": {
+    "passed": 73,
+    "failed": 76,
+    "skipped": 0,
+    "flaky": 0,
+    "total": 149
+  },
+  "suites": [
+    {
+      "name": "Accessibility @a11y",
+      "passed": 5,
+      "failed": 8,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 572570,
+      "pageArea": "Global"
+    },
+    {
+      "name": "Account Pages @smoke",
+      "passed": 3,
+      "failed": 6,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 489305,
+      "pageArea": "Login"
+    },
+    {
+      "name": "Account, Recharge & Rewards @smoke @account",
+      "passed": 1,
+      "failed": 2,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 155240,
+      "pageArea": "Login"
+    },
+    {
+      "name": "Checkout Flow @happy-path",
+      "passed": 0,
+      "failed": 12,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 766347,
+      "pageArea": "Cart"
+    },
+    {
+      "name": "Content Pages @smoke",
+      "passed": 8,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 301304,
+      "pageArea": "Landing Page"
+    },
+    {
+      "name": "Global Elements & Footer @smoke @global",
+      "passed": 1,
+      "failed": 4,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 205367,
+      "pageArea": "Global"
+    },
+    {
+      "name": "Homepage & Navigation @smoke @happy-path",
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 370443,
+      "pageArea": "Homepage"
+    },
+    {
+      "name": "Mobile Navigation @smoke @mobile",
+      "passed": 0,
+      "failed": 4,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 212402,
+      "pageArea": "Global"
+    },
+    {
+      "name": "Landing Pages & Education @smoke @content",
+      "passed": 0,
+      "failed": 4,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 157344,
+      "pageArea": "Landing Page"
+    },
+    {
+      "name": "Mobile Responsiveness @mobile",
+      "passed": 8,
+      "failed": 4,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 551564,
+      "pageArea": "Global"
+    },
+    {
+      "name": "Performance @performance",
+      "passed": 8,
+      "failed": 4,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 100041,
+      "pageArea": "Global"
+    },
+    {
+      "name": "Product Detail Page @smoke @happy-path",
+      "passed": 11,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 501948,
+      "pageArea": "PDP"
+    },
+    {
+      "name": "Product Detail — Multiple Products @smoke",
+      "passed": 3,
+      "failed": 2,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 247086,
+      "pageArea": "PDP"
+    },
+    {
+      "name": "Product Discovery — Search @smoke @happy-path",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 99604,
+      "pageArea": "Collection"
+    },
+    {
+      "name": "Product Discovery — Collections @smoke @happy-path",
+      "passed": 4,
+      "failed": 2,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 257482,
+      "pageArea": "Collection"
+    },
+    {
+      "name": "Product Detail Page — Third-Party Integrations @smoke @pdp",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 43937,
+      "pageArea": "PDP"
+    },
+    {
+      "name": "SEO Basics @seo",
+      "passed": 8,
+      "failed": 6,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 525870,
+      "pageArea": "Global"
+    },
+    {
+      "name": "Shopping Cart @happy-path",
+      "passed": 0,
+      "failed": 16,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 993262,
+      "pageArea": "Cart"
+    },
+    {
+      "name": "Shopping Cart — Third Party Integrations @smoke @cart",
+      "passed": 0,
+      "failed": 2,
+      "skipped": 0,
+      "flaky": 0,
+      "duration": 122211,
+      "pageArea": "Cart"
+    }
+  ],
+  "tests": [
+    {
+      "id": "T1",
+      "test": "main navigation is keyboard accessible",
+      "suite": "Accessibility @a11y",
+      "pageArea": "Global",
+      "feature": "main navigation is keyboard accessible",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 44044
+    },
+    {
+      "id": "T2",
+      "test": "skip-to-content link is present",
+      "suite": "Accessibility @a11y",
+      "pageArea": "Global",
+      "feature": "skip-to-content link is present",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 44044
+    },
+    {
+      "id": "T3",
+      "test": "form inputs have associated labels",
+      "suite": "Accessibility @a11y",
+      "pageArea": "Global",
+      "feature": "form inputs have associated labels",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 44044
+    },
+    {
+      "id": "T4",
+      "test": "headings follow proper hierarchy",
+      "suite": "Accessibility @a11y",
+      "pageArea": "Global",
+      "feature": "SEO Heading Structure",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 44044
+    },
+    {
+      "id": "T5",
+      "test": "ARIA landmarks are present",
+      "suite": "Accessibility @a11y",
+      "pageArea": "Global",
+      "feature": "ARIA landmarks are present",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 44044
+    },
+    {
+      "id": "T6",
+      "test": "registration page is accessible",
+      "suite": "Account Pages @smoke",
+      "pageArea": "Login",
+      "feature": "registration page is accessible",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 54367
+    },
+    {
+      "id": "T7",
+      "test": "password reset link is accessible",
+      "suite": "Account Pages @smoke",
+      "pageArea": "Login",
+      "feature": "Password Reset",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 54367
+    },
+    {
+      "id": "T8",
+      "test": "hCaptcha detection on account forms",
+      "suite": "Account Pages @smoke",
+      "pageArea": "Login",
+      "feature": "hCaptcha detection on account forms",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 54367
+    },
+    {
+      "id": "T9",
+      "test": "rewards page renders and displays UI layers",
+      "suite": "Account, Recharge & Rewards @smoke @account",
+      "pageArea": "Login",
+      "feature": "Rewards Page",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 51747
+    },
+    {
+      "id": "T10",
+      "test": "blog page loads with article listings",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T11",
+      "test": "about us page loads with content",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T12",
+      "test": "contact us page loads with form",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T13",
+      "test": "privacy policy page loads",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T14",
+      "test": "terms of service page loads",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T15",
+      "test": "shipping policy page loads",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T16",
+      "test": "refund policy page loads",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T17",
+      "test": "404 page handles non-existent URL gracefully",
+      "suite": "Content Pages @smoke",
+      "pageArea": "Landing Page",
+      "feature": "Broken Links / 404",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37663
+    },
+    {
+      "id": "T18",
+      "test": "announcement bar variants load successfully",
+      "suite": "Global Elements & Footer @smoke @global",
+      "pageArea": "Global",
+      "feature": "Announcement Bar",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41073
+    },
+    {
+      "id": "T19",
+      "test": "homepage loads successfully",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T20",
+      "test": "hero banner is visible with content",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Banner Carousel",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T21",
+      "test": "header renders with logo, nav, search, and cart",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Logo",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T22",
+      "test": "main navigation has menu items",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Site Navigation",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T23",
+      "test": "footer renders with links",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Footer Links",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T24",
+      "test": "footer links are not broken",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Footer Links",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T25",
+      "test": "logo links to homepage",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Logo",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T26",
+      "test": "cookie consent banner can be dismissed",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Banner Carousel",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T27",
+      "test": "promotional popups can be closed",
+      "suite": "Homepage & Navigation @smoke @happy-path",
+      "pageArea": "Homepage",
+      "feature": "Current Offer Popup",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 41160
+    },
+    {
+      "id": "T28",
+      "test": "homepage renders without horizontal overflow",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "homepage renders without horizontal overflow",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T29",
+      "test": "product grid is responsive on collection page",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "Product Grid",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T30",
+      "test": "product images are responsive",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "Product Image",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T31",
+      "test": "add-to-cart button is tap-friendly (min 44x44px)",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "Add to Cart",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T32",
+      "test": "text is readable without zooming",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "text is readable without zooming",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T33",
+      "test": "search is accessible on mobile",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "Search",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T34",
+      "test": "footer stacks vertically on mobile",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "footer stacks vertically on mobile",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T35",
+      "test": "PDP renders without overflow on mobile",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "PDP renders without overflow on mobile",
+      "viewport": "Mobile",
+      "status": "passed",
+      "duration": 45964
+    },
+    {
+      "id": "T36",
+      "test": "homepage loads within 5 seconds",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T37",
+      "test": "homepage LCP is under 2.5 seconds",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T38",
+      "test": "homepage CLS is under 0.1",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T39",
+      "test": "collection page loads within 5 seconds",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T40",
+      "test": "PDP loads within 5 seconds",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "PDP loads within 5 seconds",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T41",
+      "test": "homepage has no critical JavaScript errors",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "homepage has no critical JavaScript errors",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T42",
+      "test": "PDP has no critical JavaScript errors",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "PDP has no critical JavaScript errors",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T43",
+      "test": "page weight estimation for homepage",
+      "suite": "Performance @performance",
+      "pageArea": "Global",
+      "feature": "page weight estimation for homepage",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 8337
+    },
+    {
+      "id": "T44",
+      "test": "PDP loads with product title visible",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Product Title",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T45",
+      "test": "product price is displayed",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Product Price",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T46",
+      "test": "product description is present",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Product Description",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T47",
+      "test": "product main image loads successfully",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Product Image",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T48",
+      "test": "image gallery has multiple images",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Gallery",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T49",
+      "test": "variant selector is present",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Variant Selectors",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T50",
+      "test": "quantity input is functional",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Quantity Input",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T51",
+      "test": "add-to-cart button is visible and enabled",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Add to Cart",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T52",
+      "test": "clicking add-to-cart updates the cart",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Add to Cart",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T53",
+      "test": "Yotpo reviews section loads",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Yotpo Star Reviews",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T54",
+      "test": "breadcrumbs are present and navigable",
+      "suite": "Product Detail Page @smoke @happy-path",
+      "pageArea": "PDP",
+      "feature": "Breadcrumb",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 45632
+    },
+    {
+      "id": "T55",
+      "test": "PDP loads with product title visible",
+      "suite": "Product Detail — Multiple Products @smoke",
+      "pageArea": "PDP",
+      "feature": "Product Title",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 49417
+    },
+    {
+      "id": "T56",
+      "test": "product price is displayed",
+      "suite": "Product Detail — Multiple Products @smoke",
+      "pageArea": "PDP",
+      "feature": "Product Price",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 49417
+    },
+    {
+      "id": "T57",
+      "test": "product description is present",
+      "suite": "Product Detail — Multiple Products @smoke",
+      "pageArea": "PDP",
+      "feature": "Product Description",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 49417
+    },
+    {
+      "id": "T58",
+      "test": "search is accessible and returns results for a known product",
+      "suite": "Product Discovery — Search @smoke @happy-path",
+      "pageArea": "Collection",
+      "feature": "Search",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 49802
+    },
+    {
+      "id": "T59",
+      "test": "search handles no-results query gracefully",
+      "suite": "Product Discovery — Search @smoke @happy-path",
+      "pageArea": "Collection",
+      "feature": "Search",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 49802
+    },
+    {
+      "id": "T60",
+      "test": "search is accessible and returns results for a known product",
+      "suite": "Product Discovery — Collections @smoke @happy-path",
+      "pageArea": "Collection",
+      "feature": "Search",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 42914
+    },
+    {
+      "id": "T61",
+      "test": "search handles no-results query gracefully",
+      "suite": "Product Discovery — Collections @smoke @happy-path",
+      "pageArea": "Collection",
+      "feature": "Search",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 42914
+    },
+    {
+      "id": "T62",
+      "test": "collection page loads with product grid",
+      "suite": "Product Discovery — Collections @smoke @happy-path",
+      "pageArea": "Collection",
+      "feature": "Page Load Performance",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 42914
+    },
+    {
+      "id": "T63",
+      "test": "category collection pages load correctly",
+      "suite": "Product Discovery — Collections @smoke @happy-path",
+      "pageArea": "Collection",
+      "feature": "Collection Page Load",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 42914
+    },
+    {
+      "id": "T64",
+      "test": "search is accessible and returns results for a known product",
+      "suite": "Product Detail Page — Third-Party Integrations @smoke @pdp",
+      "pageArea": "PDP",
+      "feature": "Search",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 43937
+    },
+    {
+      "id": "T65",
+      "test": "homepage has a title tag",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Title Tags",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T66",
+      "test": "homepage has a meta description",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Meta Descriptions",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T67",
+      "test": "PDP has product-specific title",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "Product Title",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T68",
+      "test": "PDP has product-specific meta description",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Meta Descriptions",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T69",
+      "test": "homepage has canonical URL",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Canonical URLs",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T70",
+      "test": "PDP has canonical URL",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Canonical URLs",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T71",
+      "test": "PDP has JSON-LD structured data (Product schema)",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Structured Data",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T72",
+      "test": "robots.txt is accessible and well-formed",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Robots.txt",
+      "viewport": "Desktop",
+      "status": "passed",
+      "duration": 37562
+    },
+    {
+      "id": "T73",
+      "test": "PDP passes axe-core accessibility scan",
+      "suite": "Accessibility @a11y",
+      "pageArea": "PDP",
+      "feature": "WCAG Accessibility Scan",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "accessibility",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m3\u001b[39m\nReceived array:  \u001b[31m[{\"description\": \"Ensure every ARIA button, link and menuitem has an accessible name\", \"help\": \"ARIA commands must have an accessible name\", \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.11/aria-command-name?application=playwright\", \"id\": \"aria-command-name\", \"impact\": \"serious\", \"nodes\": [{\"all\": [], \"any\": [{\"data\": null, \"id\": \"has-visible-text\", \"impact\": \"serious\", \"message\": \"Element does not have text that is visible to screen readers\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-label\", \"impact\": \"serious\", \"message\": \"aria-label attribute does not exist or is empty\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-labelledby\", \"impact\": \"serious\", \"message\": \"aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\", \"relatedNodes\": []}, {\"data\": {\"messageKey\": \"noAttr\"}, \"id\": \"non-empty-title\", \"impact\": \"serious\", \"message\": \"Element has no title attribute\", \"relatedNodes\": []}], \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m  Element does not have text that is visible to screen readers\u001b[39m\n\u001b[31m  aria-label attribute does not exist or is empty\u001b[39m\n\u001b[31m  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\u001b[39m\n\u001b[31m  Element has no title attribute\", \"html\": \"<div class=\\\"envive-tw-w-full envive-tw-cursor-text envive-tw-border-solid envive-tw-px-4 envive-tw-py-2 envive-tw-border-[1px] envive-tw-border-border-light envive-tw-rounded-4\\\" role=\\\"button\\\" tabindex=\\\"0\\\">\", \"impact\": \"serious\", \"none\": [], \"target\": [[\"#spiffy-ai-chat-preview-desktop\", \".envive-tw-cursor-text.envive-tw-rounded-4.envive-tw-border-border-light\"]]}], \"tags\": [\"cat.aria\", \"wcag2a\", \"wcag412\", \"TTv5\", \"TT6.a\", \"EN-301-549\", \"EN-9.4.1.2\", \"ACT\", \"RGAAv4\", \"RGAA-11.9.1\"]}, {\"description\": \"Ensure buttons have discernible text\", \"help\": \"Buttons must have discernible text\", \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.11/button-name?application=playwright\", \"id\": \"button-name\", \"impact\": \"critical\", \"nodes\": [{\"all\": [], \"any\": [{\"data\": null, \"id\": \"button-has-visible-text\", \"impact\": \"critical\", \"message\": \"Element does not have inner text that is visible to screen readers\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-label\", \"impact\": \"critical\", \"message\": \"aria-label attribute does not exist or is empty\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-labelledby\", \"impact\": \"critical\", \"message\": \"aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\", \"relatedNodes\": []}, {\"data\": {\"messageKey\": \"noAttr\"}, \"id\": \"non-empty-title\", \"impact\": \"critical\", \"message\": \"Element has no title attribute\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"implicit-label\", \"impact\": \"critical\", \"message\": \"Element does not have an implicit (wrapped) <label>\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"explicit-label\", \"impact\": \"critical\", \"message\": \"Element does not have an explicit <label>\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"presentational-role\", \"impact\": \"critical\", \"message\": \"Element's default semantics were not overridden with role=\\\"none\\\" or role=\\\"presentation\\\"\", \"relatedNodes\": []}], \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m  Element does not have inner text that is visible to screen readers\u001b[39m\n\u001b[31m  aria-label attribute does not exist or is empty\u001b[39m\n\u001b[31m  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\u001b[39m\n\u001b[31m  Element has no title attribute\u001b[39m\n\u001b[31m  Element does not have an implicit (wrapped) <label>\u001b[39m\n\u001b[31m  Element does not have an explicit <label>\u001b[39m\n\u001b[31m  Element's default semantics were not overridden with role=\\\"none\\\" or role=\\\"presentation\\\"\", \"html\": \"<button class=\\\"envive-tw-h-fit envi...\\\" type=\\\"button\\\" aria-busy=\\\"false\\\" aria-disabled=\\\"false\\\">\", \"impact\": \"critical\", \"none\": [], \"target\": [[\"#spiffy-ai-chat-preview-desktop\", \".envive-tw-bg-button-dark-background-color.envive-tw-border-button-dark-background-color.envive-tw-w-fit\"]]}], \"tags\": [\"cat.name-role-value\", \"wcag2a\", \"wcag412\", \"section508\", \"section508.22.a\", \"TTv5\", \"TT6.a\", \"EN-301-549\", \"EN-9.4.1.2\", \"ACT\", …]}, {\"description\": \"Ensure links have discernible text\", \"help\": \"Links must have discernible text\", \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.11/link-name?application=playwright\", \"id\": \"link-name\", \"impact\": \"serious\", \"nodes\": [{\"all\": [], \"any\": [{\"data\": null, \"id\": \"has-visible-text\", \"impact\": \"serious\", \"message\": \"Element does not have text that is visible to screen readers\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-label\", \"impact\": \"serious\", \"message\": \"aria-label attribute does not exist or is empty\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-labelledby\", \"impact\": \"serious\", \"message\": \"aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\", \"relatedNodes\": []}, {\"data\": {\"messageKey\": \"noAttr\"}, \"id\": \"non-empty-title\", \"impact\": \"serious\", \"message\": \"Element has no title attribute\", \"relatedNodes\": []}], \"failureSummary\": \"Fix all of the following:\u001b[39m\n\u001b[31m  Element is in tab order and does not have accessible text·\u001b[39m\n\u001b[31mFix any of the following:\u001b[39m\n\u001b[31m  Element does not have text that is visible to screen readers\u001b[39m\n\u001b[31m  aria-label attribute does not exist or is empty\u001b[39m\n\u001b[31m  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\u001b[39m\n\u001b[31m  Element has no title attribute\", \"html\": \"<a href=\\\"/cart\\\" id=\\\"cart-icon-open\\\" class=\\\"icon-container icon--cart\\\">\", \"impact\": \"serious\", \"none\": [{\"data\": null, \"id\": \"focusable-no-name\", \"impact\": \"serious\", \"message\": \"Element is in tab order and does not have accessible text\", \"relatedNodes\": []}], \"target\": [\"#cart-icon-open\"]}], \"tags\": [\"cat.name-role-value\", \"wcag2a\", \"wcag244\", \"wcag412\", \"section508\", \"section508.22.a\", \"TTv5\", \"TT6.a\", \"EN-301-549\", \"EN-9.2.4.4\", …]}]\u001b[39m",
+      "humanError": "Accessibility violations detected: aria-command-name, has-visible-text, aria-label, aria-labelledby, non-empty-title, button-name, button-has-visible-text, implicit-label, explicit-label, presentational-role, link-name, focusable-no-name.",
+      "recommendation": "Review the specific ARIA/WCAG rules flagged. Common fixes include: adding aria-label to buttons/links, ensuring color contrast ratios meet 4.5:1, and adding alt text to images.",
+      "priority": "medium",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\accessibility-Accessibilit-914f4-axe-core-accessibility-scan-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "a11y",
+          "description": "PDP a11y violations: 3 (aria-command-name, button-name, link-name)"
+        }
+      ]
+    },
+    {
+      "id": "T74",
+      "test": "homepage passes axe-core accessibility scan",
+      "suite": "Accessibility @a11y",
+      "pageArea": "Homepage",
+      "feature": "WCAG Accessibility Scan",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "accessibility",
+      "rawError": "Error: Critical/serious a11y violations: color-contrast: Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds; link-name: Ensure links have discernible text\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m2\u001b[39m\nReceived array:  \u001b[31m[{\"description\": \"Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds\", \"help\": \"Elements must meet minimum color contrast ratio thresholds\", \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright\", \"id\": \"color-contrast\", \"impact\": \"serious\", \"nodes\": [{\"all\": [], \"any\": [{\"data\": {\"bgColor\": \"#ffffff\", \"contrastRatio\": 3.14, \"expectedContrastRatio\": \"4.5:1\", \"fgColor\": \"#5e93db\", \"fontSize\": \"13.5pt (18px)\", \"fontWeight\": \"bold\", \"messageKey\": null}, \"id\": \"color-contrast\", \"impact\": \"serious\", \"message\": \"Element has insufficient color contrast of 3.14 (foreground color: #5e93db, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1\", \"relatedNodes\": [{\"html\": \"<button class=\\\"promo-btn promo_btn_background_color-slide_hBdJaJ promo_btn_font_color-slide_hBdJaJ button_size_w250-slide_hBdJaJ\\\" role=\\\"link\\\" aria-label=\\\"\\\" tabindex=\\\"0\\\" onclick=\\\"window.location.href='/products/pro-collagen-banking-water-cream'\\\">\", \"target\": [\".promo_btn_background_color-slide_hBdJaJ\"]}]}], \"failureSummary\": \"Fix any of the following:\u001b[39m\n\u001b[31m  Element has insufficient color contrast of 3.14 (foreground color: #5e93db, background color: #ffffff, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1\", \"html\": \"<button class=\\\"promo-btn promo_btn_background_color-slide_hBdJaJ promo_btn_font_color-slide_hBdJaJ button_size_w250-slide_hBdJaJ\\\" role=\\\"link\\\" aria-label=\\\"\\\" tabindex=\\\"0\\\" onclick=\\\"window.location.href='/products/pro-collagen-banking-water-cream'\\\">\", \"impact\": \"serious\", \"none\": [], \"target\": [\".promo_btn_background_color-slide_hBdJaJ\"]}], \"tags\": [\"cat.color\", \"wcag2aa\", \"wcag143\", \"TTv5\", \"TT13.c\", \"EN-301-549\", \"EN-9.1.4.3\", \"ACT\", \"RGAAv4\", \"RGAA-3.2.1\"]}, {\"description\": \"Ensure links have discernible text\", \"help\": \"Links must have discernible text\", \"helpUrl\": \"https://dequeuniversity.com/rules/axe/4.11/link-name?application=playwright\", \"id\": \"link-name\", \"impact\": \"serious\", \"nodes\": [{\"all\": [], \"any\": [{\"data\": null, \"id\": \"has-visible-text\", \"impact\": \"serious\", \"message\": \"Element does not have text that is visible to screen readers\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-label\", \"impact\": \"serious\", \"message\": \"aria-label attribute does not exist or is empty\", \"relatedNodes\": []}, {\"data\": null, \"id\": \"aria-labelledby\", \"impact\": \"serious\", \"message\": \"aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\", \"relatedNodes\": []}, {\"data\": {\"messageKey\": \"noAttr\"}, \"id\": \"non-empty-title\", \"impact\": \"serious\", \"message\": \"Element has no title attribute\", \"relatedNodes\": []}], \"failureSummary\": \"Fix all of the following:\u001b[39m\n\u001b[31m  Element is in tab order and does not have accessible text·\u001b[39m\n\u001b[31mFix any of the following:\u001b[39m\n\u001b[31m  Element does not have text that is visible to screen readers\u001b[39m\n\u001b[31m  aria-label attribute does not exist or is empty\u001b[39m\n\u001b[31m  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\u001b[39m\n\u001b[31m  Element has no title attribute\", \"html\": \"<a href=\\\"/cart\\\" id=\\\"cart-icon-open\\\" class=\\\"icon-container icon--cart\\\">\", \"impact\": \"serious\", \"none\": [{\"data\": null, \"id\": \"focusable-no-name\", \"impact\": \"serious\", \"message\": \"Element is in tab order and does not have accessible text\", \"relatedNodes\": []}], \"target\": [\"#cart-icon-open\"]}], \"tags\": [\"cat.name-role-value\", \"wcag2a\", \"wcag244\", \"wcag412\", \"section508\", \"section508.22.a\", \"TTv5\", \"TT6.a\", \"EN-301-549\", \"EN-9.2.4.4\", …]}]\u001b[39m",
+      "humanError": "Accessibility violations detected: color-contrast, link-name, has-visible-text, aria-label, aria-labelledby, non-empty-title, focusable-no-name.",
+      "recommendation": "Review the specific ARIA/WCAG rules flagged. Common fixes include: adding aria-label to buttons/links, ensuring color contrast ratios meet 4.5:1, and adding alt text to images.",
+      "priority": "medium",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\accessibility-Accessibilit-8035c-axe-core-accessibility-scan-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "a11y",
+          "description": "Homepage a11y violations: 2 (color-contrast, link-name)"
+        }
+      ]
+    },
+    {
+      "id": "T75",
+      "test": "all homepage images have alt attributes",
+      "suite": "Accessibility @a11y",
+      "pageArea": "Homepage",
+      "feature": "Image Alt Text",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "assertion_failed",
+      "rawError": "Error: Images missing alt text: https://www.dermalogica.com/cdn/shop/files/Site_PCBWCLaunch_HomepageAssets_DesktopHomepageBanner_ImageOnly.jpg?v=1772738893&width=550, https://www.dermalogica.com/cdn/shop/files/Site_PCBWCLaunch_HomepageAssets_MobileHomepageBanner_ImageOnly.jpg?v=1772738905&width=550, https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_HomepageAssets_DesktopHomepageBanner_V4-2_3200x1120_IMAGEONLY.jpg?v=1767101500&width=550, https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_MobileHomepageBanner_V4_850x600_b9c7ab4d-fe50-4f59-a541-ec84bc4a91dd.jpg?v=1767101514&width=550, https://www.dermalogica.com/cdn/shop/files/Phytonature_1536x820_1.jpg?v=1773358032&width=550\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m9\u001b[39m\nReceived array:  \u001b[31m[\"https://www.dermalogica.com/cdn/shop/files/Site_PCBWCLaunch_HomepageAssets_DesktopHomepageBanner_ImageOnly.jpg?v=1772738893&width=550\", \"https://www.dermalogica.com/cdn/shop/files/Site_PCBWCLaunch_HomepageAssets_MobileHomepageBanner_ImageOnly.jpg?v=1772738905&width=550\", \"https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_HomepageAssets_DesktopHomepageBanner_V4-2_3200x1120_IMAGEONLY.jpg?v=1767101500&width=550\", \"https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_MobileHomepageBanner_V4_850x600_b9c7ab4d-fe50-4f59-a541-ec84bc4a91dd.jpg?v=1767101514&width=550\", \"https://www.dermalogica.com/cdn/shop/files/Phytonature_1536x820_1.jpg?v=1773358032&width=550\", \"https://www.dermalogica.com/cdn/shop/files/Site_BrandCampaign_HomepagePromoGrid_V2.jpg?v=1767101487&width=550\", \"https://www.dermalogica.com/cdn/shop/files/Site_Evergreen2025_HomepageGrid_V1.jpg?v=1749576645&width=550\", \"https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg\", \"https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg\"]\u001b[39m",
+      "humanError": "9 images are missing alt text on this page. Visitors using screen readers cannot understand these images.",
+      "recommendation": "Add descriptive alt text to every image in the Shopify theme editor or media library. Alt text should describe the image content concisely.",
+      "priority": "medium",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\accessibility-Accessibilit-55d04--images-have-alt-attributes-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "a11y",
+          "description": "Homepage images without alt: 9"
+        }
+      ]
+    },
+    {
+      "id": "T76",
+      "test": "all PDP images have alt attributes",
+      "suite": "Accessibility @a11y",
+      "pageArea": "PDP",
+      "feature": "Image Alt Text",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "assertion_failed",
+      "rawError": "Error: Images missing alt text: https://cdn.accentuate.cloud/images/42076831896/DailyMic-v1753221104234.jpg, https://cdn.accentuate.cloud/images/42076831896/DailyMic-v1753221104234.jpg, https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg, https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m4\u001b[39m\nReceived array:  \u001b[31m[\"https://cdn.accentuate.cloud/images/42076831896/DailyMic-v1753221104234.jpg\", \"https://cdn.accentuate.cloud/images/42076831896/DailyMic-v1753221104234.jpg\", \"https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg\", \"https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/us.svg\"]\u001b[39m",
+      "humanError": "4 images are missing alt text on this page. Visitors using screen readers cannot understand these images.",
+      "recommendation": "Add descriptive alt text to every image in the Shopify theme editor or media library. Alt text should describe the image content concisely.",
+      "priority": "medium",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\accessibility-Accessibilit-7898e--images-have-alt-attributes-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "a11y",
+          "description": "PDP images without alt: 4"
+        }
+      ]
+    },
+    {
+      "id": "T77",
+      "test": "login page loads with form fields",
+      "suite": "Account Pages @smoke",
+      "pageArea": "Login",
+      "feature": "Login Form",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#customer_login button[type=\"submit\"], .login-form button[type=\"submit\"]').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('#customer_login button[type=\"submit\"], .login-form button[type=\"submit\"]').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 15 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\account-pages-Account-Page-bd20b-page-loads-with-form-fields-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T78",
+      "test": "login form shows error for empty submission",
+      "suite": "Account Pages @smoke",
+      "pageArea": "Login",
+      "feature": "Login Form",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: locator.click: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#customer_login button[type=\"submit\"], .login-form button[type=\"submit\"]').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\account-pages-Account-Page-75e08--error-for-empty-submission-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T79",
+      "test": "login form shows error for invalid credentials",
+      "suite": "Account Pages @smoke",
+      "pageArea": "Login",
+      "feature": "Login Form",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: locator.click: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#customer_login button[type=\"submit\"], .login-form button[type=\"submit\"]').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\account-pages-Account-Page-85247-ror-for-invalid-credentials-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T80",
+      "test": "login page elements render securely",
+      "suite": "Account, Recharge & Rewards @smoke @account",
+      "pageArea": "Login",
+      "feature": "Login Security",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('#customer_login button[type=\"submit\"], .login-form button[type=\"submit\"]')\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('#customer_login button[type=\"submit\"], .login-form button[type=\"submit\"]')\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 15 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\account-rewards-Account-Re-a07a8-ge-elements-render-securely-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T81",
+      "test": "checkout button navigates to checkout page",
+      "suite": "Checkout Flow @happy-path",
+      "pageArea": "Cart",
+      "feature": "Dynamic Checkout Option",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\checkout-flow-Checkout-Flo-f7b99--navigates-to-checkout-page-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T82",
+      "test": "checkout page has email/contact field",
+      "suite": "Checkout Flow @happy-path",
+      "pageArea": "Cart",
+      "feature": "Checkout Form",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\checkout-flow-Checkout-Flo-5ed0f-age-has-email-contact-field-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T83",
+      "test": "checkout has shipping address fields",
+      "suite": "Checkout Flow @happy-path",
+      "pageArea": "Cart",
+      "feature": "Checkout Form",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\checkout-flow-Checkout-Flo-e6bae-has-shipping-address-fields-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T84",
+      "test": "checkout form validates empty required fields",
+      "suite": "Checkout Flow @happy-path",
+      "pageArea": "Cart",
+      "feature": "Checkout Flow",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\checkout-flow-Checkout-Flo-a1260-dates-empty-required-fields-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T85",
+      "test": "order summary is visible during checkout",
+      "suite": "Checkout Flow @happy-path",
+      "pageArea": "Cart",
+      "feature": "Checkout Flow",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\checkout-flow-Checkout-Flo-93333--is-visible-during-checkout-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T86",
+      "test": "checkout flow does NOT proceed to payment submission",
+      "suite": "Checkout Flow @happy-path",
+      "pageArea": "Cart",
+      "feature": "Checkout Flow",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded while running \"beforeEach\" hook.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\checkout-flow-Checkout-Flo-eb97f-oceed-to-payment-submission-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T87",
+      "test": "third-party chat widget (Zendesk) is injected",
+      "suite": "Global Elements & Footer @smoke @global",
+      "pageArea": "Global",
+      "feature": "Zendesk Chat Now",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 20000ms exceeded.\u001b[39m\nError: page.waitForTimeout: Target page, context or browser has been closed",
+      "humanError": "The page or a specific element took longer than 20 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\global-ui-Global-Elements--8ffea--widget-Zendesk-is-injected-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T88",
+      "test": "footer components (Klaviyo & SMS) render",
+      "suite": "Global Elements & Footer @smoke @global",
+      "pageArea": "Global",
+      "feature": "Klaviyo Email Signup",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Test timeout of 60000ms exceeded",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\global-ui-Global-Elements--ca5c2-mponents-Klaviyo-SMS-render-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T89",
+      "test": "hamburger menu is visible on mobile",
+      "suite": "Mobile Navigation @smoke @mobile",
+      "pageArea": "Global",
+      "feature": "Mobile Navigation",
+      "viewport": "Mobile",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.header__menu-toggle, [data-mobile-nav-toggle], button[aria-label*=\"Menu\"], .hamburger').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.header__menu-toggle, [data-mobile-nav-toggle], button[aria-label*=\"Menu\"], .hamburger').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 15 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\homepage-navigation-Mobile-99d74-r-menu-is-visible-on-mobile-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T90",
+      "test": "mobile menu opens and shows navigation links",
+      "suite": "Mobile Navigation @smoke @mobile",
+      "pageArea": "Global",
+      "feature": "Mobile Navigation",
+      "viewport": "Mobile",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.header__menu-toggle, [data-mobile-nav-toggle], button[aria-label*=\"Menu\"], .hamburger').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 30 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\homepage-navigation-Mobile-fcb16--and-shows-navigation-links-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T91",
+      "test": "face mapping analysis tool renders the interactive quiz overlay",
+      "suite": "Landing Pages & Education @smoke @content",
+      "pageArea": "Landing Page",
+      "feature": "Face Mapping",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 20000ms exceeded.\u001b[39m\nError: page.waitForTimeout: Target page, context or browser has been closed",
+      "humanError": "The page or a specific element took longer than 20 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\landing-pages-Landing-Page-b8937-he-interactive-quiz-overlay-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T92",
+      "test": "store locator mapping module renders",
+      "suite": "Landing Pages & Education @smoke @content",
+      "pageArea": "Landing Page",
+      "feature": "Store Locator",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n\nCall Log:\n- Timeout 15000ms exceeded while waiting on the predicate",
+      "humanError": "The page or a specific element took longer than 15 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\landing-pages-Landing-Page-f07fb-ator-mapping-module-renders-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T93",
+      "test": "navigation collapses to hamburger menu",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "Mobile Navigation",
+      "viewport": "Mobile",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "assertion_failed",
+      "rawError": "Error: Hamburger menu not visible on mobile\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m",
+      "humanError": "A quality check did not pass — the page behavior or content doesn't match expectations.",
+      "recommendation": "Compare the test expectation with the current live website. The feature may work differently now.",
+      "priority": "medium",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\mobile-responsive-Mobile-R-b5f79-collapses-to-hamburger-menu-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T94",
+      "test": "hamburger menu opens and closes",
+      "suite": "Mobile Responsiveness @mobile",
+      "pageArea": "Global",
+      "feature": "Mobile Navigation",
+      "viewport": "Mobile",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: locator.click: Test timeout of 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.header__menu-toggle, [data-mobile-nav-toggle], button[aria-label*=\"Menu\"], .hamburger').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\mobile-responsive-Mobile-R-245b8-urger-menu-opens-and-closes-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T95",
+      "test": "homepage has no broken images",
+      "suite": "Performance @performance",
+      "pageArea": "Homepage",
+      "feature": "Broken Images",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "assertion_failed",
+      "rawError": "Error: Broken images found:\n  - https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_HomepageAssets_DesktopHomepageBanner_V4-2_3200x1120_IMAGEONLY.jpg?v=1767101500&width=550 (alt: \"(no alt text)\")\n  - https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_MobileHomepageBanner_V4_850x600_b9c7ab4d-fe50-4f59-a541-ec84bc4a91dd.jpg?v=1767101514&width=550 (alt: \"(no alt text)\")\n  - https://www.dermalogica.com/cdn/shop/files/5_Site_Toners.jpg?v=1771529475&width=600 (alt: \"toners\")\n  - https://www.dermalogica.com/cdn/shop/files/6_Site_FacialOilSerums.jpg?v=1771529488&width=600 (alt: \"facial oils and serums\")\n  - https://www.dermalogica.com/cdn/shop/files/8_Site_EyeTreatments.jpg?v=1771529502&width=600 (alt: \"eye treatments\")\n  - https://www.dermalogica.com/cdn/shop/files/9_Site_Body.jpg?v=1771529517&width=600 (alt: \"body\")\n  - https://www.dermalogica.com/cdn/shop/files/10_Site_Masques.jpg?v=1771529533&width=600 (alt: \"masques\")\n  - https://www.dermalogica.com/cdn/shop/files/doublecleanseset_Bottles_00c39749-a348-4b5d-8c91-04df8e5d4531.jpg?v=1773098920&width=533 (alt: \"double cleanse set (2 full-size)\")\n  - https://www.dermalogica.com/cdn/shop/files/DOUBLE-CLEANSE_PDPTile_DoubleCleanse.jpg?v=1773093070&width=533 (alt: \"double cleanse set (2 full-size)\")\n  - https://www.dermalogica.com/cdn/shop/files/dynamic-skin-retinol-serum_Primary_main-with-benefits.jpg?v=1756229455&width=533 (alt: \"dynamic skin retinol serum benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/DynamicSkinRetinolSerum_NightlyUse.jpg?v=1756229377&width=533 (alt: \"dynamic skin retinol serum benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/antioxidant-hydramist_5.1oz_main-with-benefits.jpg?v=1763688531&width=533 (alt: \"antioxidant hydramist benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/AntioxidantHydramist_Benefits.jpg?v=1763688532&width=533 (alt: \"antioxidant hydramist benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/special-cleansing-gel_main-with-benefits.jpg?v=1756229448&width=533 (alt: \"special cleansing gel main with benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/SpecialCleansingGel_Model.jpg?v=1756229466&width=533 (alt: \"special cleansing gel main with benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/AGoodNightsRest-PDP_Kit_ValueSeal.jpg?v=1758216665&width=533 (alt: \"a goodnights rest set with value\")\n  - https://www.dermalogica.com/cdn/shop/files/AGoodNightsRest-PDP_ContentsCallout.jpg?v=1758216665&width=533 (alt: \"a goodnights rest set with value\")\n  - https://www.dermalogica.com/cdn/shop/files/01_MVPRC_PDPTile_Benefits_ba5c8a34-aad8-40bb-a3ce-5d4039de503e.jpg?v=1756236683&width=533 (alt: \"multivitamin power recovery cream benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/MVPRC_PDPTile_LeadClaim.jpg?v=1756236688&width=533 (alt: \"multivitamin power recovery cream benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/SITE_CollagenDu_site_offerswidget_680x400_476d9914-b21a-4b1f-8083-ee6222a601e6.jpg?v=1774913260&width=550 (alt: \"pro-collagen banking serum and pro-collagen banking water cream\")\n  - https://www.dermalogica.com/cdn/shop/files/Site_PCBWCLaunch_OffersWidget.jpg?v=1773883646&width=550 (alt: \"<p><strong>free mini serum</strong></p>\")\n  - https://www.dermalogica.com/cdn/shop/files/Site_OffersWidget_OffersWidget_V4.jpg?v=1767101546&width=550 (alt: \"<p><strong>shop hsa/fsa eligible skin care</strong></p>\")\n  - https://www.dermalogica.com/cdn/shop/files/Free-Shipping_Site-Offers-Homepage-Widget_680x400_6a8c93e0-29d3-4210-8cfd-a90d0bc16552.jpg?v=1738509794&width=550 (alt: \"free shipping on orders $20+\")\n  - https://www.dermalogica.com/cdn/shop/files/WelcomeGiftBag_site_offerswidget_680x400_5cce1322-1e4a-47c2-b2ac-10d04aa9b505.jpg?v=1761679723&width=550 (alt: \"bag with special cleansing gel and daily microfoliant\")\n  - https://www.dermalogica.com/cdn/shop/files/2x-Points_Site-Offers-Homepage-Widget_680x400_d56e31d6-b8f3-40d4-8f94-3512c961f8ea.jpg?v=1738509825&width=550 (alt: \"2x points on all subscription orders\")\n  - https://www.dermalogica.com/cdn/shop/files/3FreeMinis_August2025_site_offerswidget_680x400_512569da-74d4-4bb4-84c1-6e892a484311.jpg?v=1756243845&width=550 (alt: \"8 dermalogica minis\")\n  - https://www.dermalogica.com/cdn/shop/files/Jumbos_Site-Offers-Homepage-Widget_680x400_cf7594fc-bd49-4f72-a457-5a4d01f2282c.jpg?v=1738509753&width=550 (alt: \"jumbo precleanse in hand\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/White_Dermalogica_Logo_-_No_Tag.png?v=1695661365 (alt: \"Dermalogica Logo Mobile\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/Logomark.png?v=1695662685 (alt: \"Dermalogica Logo\")\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m29\u001b[39m\nReceived array:  \u001b[31m[{\"alt\": \"(no alt text)\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_HomepageAssets_DesktopHomepageBanner_V4-2_3200x1120_IMAGEONLY.jpg?v=1767101500&width=550\"}, {\"alt\": \"(no alt text)\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/Site_HSAFSA_MobileHomepageBanner_V4_850x600_b9c7ab4d-fe50-4f59-a541-ec84bc4a91dd.jpg?v=1767101514&width=550\"}, {\"alt\": \"toners\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/5_Site_Toners.jpg?v=1771529475&width=600\"}, {\"alt\": \"facial oils and serums\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/6_Site_FacialOilSerums.jpg?v=1771529488&width=600\"}, {\"alt\": \"eye treatments\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/8_Site_EyeTreatments.jpg?v=1771529502&width=600\"}, {\"alt\": \"body\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/9_Site_Body.jpg?v=1771529517&width=600\"}, {\"alt\": \"masques\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/10_Site_Masques.jpg?v=1771529533&width=600\"}, {\"alt\": \"double cleanse set (2 full-size)\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/doublecleanseset_Bottles_00c39749-a348-4b5d-8c91-04df8e5d4531.jpg?v=1773098920&width=533\"}, {\"alt\": \"double cleanse set (2 full-size)\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DOUBLE-CLEANSE_PDPTile_DoubleCleanse.jpg?v=1773093070&width=533\"}, {\"alt\": \"dynamic skin retinol serum benefits\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/dynamic-skin-retinol-serum_Primary_main-with-benefits.jpg?v=1756229455&width=533\"}, …]\u001b[39m",
+      "humanError": "29 images are missing alt text on this page. Visitors using screen readers cannot understand these images.",
+      "recommendation": "Add descriptive alt text to every image in the Shopify theme editor or media library. Alt text should describe the image content concisely.",
+      "priority": "medium",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\performance-Performance-pe-e4f7e-mepage-has-no-broken-images-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "metric",
+          "description": "Homepage broken images: 29"
+        }
+      ]
+    },
+    {
+      "id": "T96",
+      "test": "PDP has no broken images",
+      "suite": "Performance @performance",
+      "pageArea": "PDP",
+      "feature": "Broken Images",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "assertion_failed",
+      "rawError": "Error: Broken images found:\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Model.jpg?v=1766525335&width=1946 (alt: \"daily microfoliant exfoliator model\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Body.jpg?v=1766525338&width=1946 (alt: \"daily microfoliant exfoliator body\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_BA1_8f35c797-ee4c-4862-afc7-e515eda62a25.jpg?v=1766525338&width=1946 (alt: \"daily microfoliant exfoliator clinical\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_BA2_31cb3fa9-f62c-472a-981b-05891853e87d.jpg?v=1766525341&width=1946 (alt: \"daily microfoliant exfoliator clinical\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Routine_9b2ff103-c79d-49b7-b456-cc592b3b37f5.jpg?v=1766525344&width=1946 (alt: \"daily microfoliant exfoliator routine\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_NumberOfUses_With1.4oz_b68c5fa3-9188-4390-91fb-1a9d9e7d8a8a.jpg?v=1766525443&width=1946 (alt: \"daily microfoliant exfoliator number of uses\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_ComparisonChart.jpg?v=1766525447&width=1946 (alt: \"daily microfoliant exfoliator comparison\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Refill.jpg?v=1766525450&width=1946 (alt: \"daily microfoliant exfoliator refill\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic0.45oz_f9926254-b558-42ce-8412-c5bb63cd7f2d.jpg?v=1772839632&width=1946 (alt: \"Image Product\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic1.4oz_e80a1cfb-1811-4405-b642-21d5fe498b68.jpg?v=1772839645&width=1946 (alt: \"Image Product\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic2.6ozrefill_74edce3b-df5d-41e9-a0e1-2a4070b55460.jpg?v=1772839660&width=1946 (alt: \"Image Product\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP__dailymic2.6ozbundle_07119edb-e0ba-44d5-b611-24cb1c111d63.jpg?v=1772839673&width=1946 (alt: \"Image Product\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic0.45oz_f9926254-b558-42ce-8412-c5bb63cd7f2d.jpg?crop=center&height=84&v=1772839632&width=84 (alt: \"daily microfoliant exfoliator\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic1.4oz_e80a1cfb-1811-4405-b642-21d5fe498b68.jpg?crop=center&height=84&v=1772839645&width=84 (alt: \"daily microfoliant exfoliator\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic2.6ozrefill_74edce3b-df5d-41e9-a0e1-2a4070b55460.jpg?crop=center&height=84&v=1772839660&width=84 (alt: \"daily microfoliant exfoliator\")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP__dailymic2.6ozbundle_07119edb-e0ba-44d5-b611-24cb1c111d63.jpg?crop=center&height=84&v=1772839673&width=84 (alt: \"daily microfoliant exfoliator\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/DailyMic_Papain.jpg?v=1763148778 (alt: \"Close-up image of fresh papaya with seeds, representing papain enzyme used for gentle exfoliation.\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/DailyMic_salicylic.png?v=1763148778 (alt: \"White liquid texture showing salicylic acid, an oil-soluble exfoliant used to clear pores.\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/1x1_Microfoliant_Swatch_1_1.jpg?v=1763148778 (alt: \"Fine white rice bran powder representing Oryza Sativa extract, known for antioxidant and skin-conditioning benefits\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/DailyMic_Papain.jpg?v=1763148778 (alt: \"Close-up image of fresh papaya with seeds, representing papain enzyme used for gentle exfoliation.\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/DailyMic_salicylic.png?v=1763148778 (alt: \"White liquid texture showing salicylic acid, an oil-soluble exfoliant used to clear pores.\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/1x1_Microfoliant_Swatch_1_1.jpg?v=1763148778 (alt: \"Fine white rice bran powder representing Oryza Sativa extract, known for antioxidant and skin-conditioning benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/ecomm_PDP_precleanse_1.0zbottle_benefits.jpg?v=1756227492&width=533 (alt: \"precleanse 1 oz bottle with benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/Precleanse_Model.jpg?v=1756229466&width=533 (alt: \"precleanse 1 oz bottle with benefits\")\n  - https://www.dermalogica.com/cdn/shop/files/SITE_CollagenDu_site_offerswidget_680x400_476d9914-b21a-4b1f-8083-ee6222a601e6.jpg?v=1774913260&width=550 (alt: \"pro-collagen banking serum and pro-collagen banking water cream\")\n  - https://www.dermalogica.com/cdn/shop/files/Site_PCBWCLaunch_OffersWidget.jpg?v=1773883646&width=550 (alt: \"<p><strong>free mini serum</strong></p>\")\n  - https://www.dermalogica.com/cdn/shop/files/Site_OffersWidget_OffersWidget_V4.jpg?v=1767101546&width=550 (alt: \"<p><strong>shop hsa/fsa eligible skin care</strong></p>\")\n  - https://www.dermalogica.com/cdn/shop/files/Free-Shipping_Site-Offers-Homepage-Widget_680x400_6a8c93e0-29d3-4210-8cfd-a90d0bc16552.jpg?v=1738509794&width=550 (alt: \"free shipping on orders $20+\")\n  - https://www.dermalogica.com/cdn/shop/files/WelcomeGiftBag_site_offerswidget_680x400_5cce1322-1e4a-47c2-b2ac-10d04aa9b505.jpg?v=1761679723&width=550 (alt: \"bag with special cleansing gel and daily microfoliant\")\n  - https://www.dermalogica.com/cdn/shop/files/2x-Points_Site-Offers-Homepage-Widget_680x400_d56e31d6-b8f3-40d4-8f94-3512c961f8ea.jpg?v=1738509825&width=550 (alt: \"2x points on all subscription orders\")\n  - https://www.dermalogica.com/cdn/shop/files/3FreeMinis_August2025_site_offerswidget_680x400_512569da-74d4-4bb4-84c1-6e892a484311.jpg?v=1756243845&width=550 (alt: \"8 dermalogica minis\")\n  - https://www.dermalogica.com/cdn/shop/files/Jumbos_Site-Offers-Homepage-Widget_680x400_cf7594fc-bd49-4f72-a457-5a4d01f2282c.jpg?v=1738509753&width=550 (alt: \"jumbo precleanse in hand\")\n  - https://cdn.shopify.com/s/files/1/0420/7683/1896/files/White_Dermalogica_Logo_-_No_Tag.png?v=1695661365 (alt: \"Dermalogica Logo Mobile\")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_BA1_8f35c797-ee4c-4862-afc7-e515eda62a25.jpg?v=1766525338&width=1445 (alt: \"daily microfoliant exfoliator clinical \")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_BA2_31cb3fa9-f62c-472a-981b-05891853e87d.jpg?v=1766525341&width=1445 (alt: \"daily microfoliant exfoliator clinical \")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Routine_9b2ff103-c79d-49b7-b456-cc592b3b37f5.jpg?v=1766525344&width=1445 (alt: \"daily microfoliant exfoliator routine \")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_NumberOfUses_With1.4oz_b68c5fa3-9188-4390-91fb-1a9d9e7d8a8a.jpg?v=1766525443&width=1445 (alt: \"daily microfoliant exfoliator number of uses \")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_ComparisonChart.jpg?v=1766525447&width=1445 (alt: \"daily microfoliant exfoliator comparison \")\n  - https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Refill.jpg?v=1766525450&width=1445 (alt: \"daily microfoliant exfoliator refill \")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic0.45oz_f9926254-b558-42ce-8412-c5bb63cd7f2d.jpg?v=1772839632&width=1445 (alt: \"daily microfoliant exfoliator \")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic1.4oz_e80a1cfb-1811-4405-b642-21d5fe498b68.jpg?v=1772839645&width=1445 (alt: \"daily microfoliant exfoliator \")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic2.6ozrefill_74edce3b-df5d-41e9-a0e1-2a4070b55460.jpg?v=1772839660&width=1445 (alt: \"daily microfoliant exfoliator \")\n  - https://www.dermalogica.com/cdn/shop/files/1617328253_PDP__dailymic2.6ozbundle_07119edb-e0ba-44d5-b611-24cb1c111d63.jpg?v=1772839673&width=1445 (alt: \"daily microfoliant exfoliator \")\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoHaveLength\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected length: \u001b[32m0\u001b[39m\nReceived length: \u001b[31m43\u001b[39m\nReceived array:  \u001b[31m[{\"alt\": \"daily microfoliant exfoliator model\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Model.jpg?v=1766525335&width=1946\"}, {\"alt\": \"daily microfoliant exfoliator body\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Body.jpg?v=1766525338&width=1946\"}, {\"alt\": \"daily microfoliant exfoliator clinical\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_BA1_8f35c797-ee4c-4862-afc7-e515eda62a25.jpg?v=1766525338&width=1946\"}, {\"alt\": \"daily microfoliant exfoliator clinical\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_BA2_31cb3fa9-f62c-472a-981b-05891853e87d.jpg?v=1766525341&width=1946\"}, {\"alt\": \"daily microfoliant exfoliator routine\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Routine_9b2ff103-c79d-49b7-b456-cc592b3b37f5.jpg?v=1766525344&width=1946\"}, {\"alt\": \"daily microfoliant exfoliator number of uses\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_NumberOfUses_With1.4oz_b68c5fa3-9188-4390-91fb-1a9d9e7d8a8a.jpg?v=1766525443&width=1946\"}, {\"alt\": \"daily microfoliant exfoliator comparison\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_ComparisonChart.jpg?v=1766525447&width=1946\"}, {\"alt\": \"daily microfoliant exfoliator refill\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/DailyMicrofoliant_Refill.jpg?v=1766525450&width=1946\"}, {\"alt\": \"Image Product\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic0.45oz_f9926254-b558-42ce-8412-c5bb63cd7f2d.jpg?v=1772839632&width=1946\"}, {\"alt\": \"Image Product\", \"src\": \"https://www.dermalogica.com/cdn/shop/files/1617328253_PDP_dailymic1.4oz_e80a1cfb-1811-4405-b642-21d5fe498b68.jpg?v=1772839645&width=1946\"}, …]\u001b[39m",
+      "humanError": "Broken images detected — visitors will see empty placeholders.",
+      "recommendation": "Verify all image URLs are correct in the Shopify CDN. Re-upload any missing assets.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\performance-Performance-performance-PDP-has-no-broken-images-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "metric",
+          "description": "PDP broken images: 43"
+        }
+      ]
+    },
+    {
+      "id": "T97",
+      "test": "Special Clearing Booster PDP loads correctly",
+      "suite": "Product Detail — Multiple Products @smoke",
+      "pageArea": "PDP",
+      "feature": "Special Clearing Booster PDP loads",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('h1, .product__title, [data-product-title]').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('h1, .product__title, [data-product-title]').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 15 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\product-detail-Product-Det-53fd2-Booster-PDP-loads-correctly-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T98",
+      "test": "product cards show title, price, and image",
+      "suite": "Product Discovery — Collections @smoke @happy-path",
+      "pageArea": "Collection",
+      "feature": "Product Card Display",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.product-card, .grid__item, .product-item, [data-product-card]').first().locator('img').first()\nExpected: visible\nTimeout: 15000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 15000ms\u001b[22m\n\u001b[2m  - waiting for locator('.product-card, .grid__item, .product-item, [data-product-card]').first().locator('img').first()\u001b[22m\n",
+      "humanError": "The page or a specific element took longer than 15 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\product-discovery-Product--6c21b--show-title-price-and-image-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T99",
+      "test": "homepage has Open Graph tags",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Homepage",
+      "feature": "SEO Open Graph",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\seo-SEO-Basics-seo-homepage-has-Open-Graph-tags-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "seo",
+          "description": "OG tags — title: true, image: false, url: false"
+        }
+      ]
+    },
+    {
+      "id": "T100",
+      "test": "key pages are not set to noindex",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Indexing",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: page.goto: Target page, context or browser has been closed",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\seo-SEO-Basics-seo-key-pages-are-not-set-to-noindex-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T101",
+      "test": "sitemap.xml is accessible",
+      "suite": "SEO Basics @seo",
+      "pageArea": "Global",
+      "feature": "SEO Sitemap",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "assertion_failed",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"urlset\"\u001b[39m\nReceived string:    \u001b[31m\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\u001b[39m\n\u001b[31m<sitemapindex xmlns=\\\"http://www.sitemaps.org/schemas/sitemap/0.9\\\">\u001b[39m\n\u001b[31m  <!-- This is the parent sitemap linking to additional sitemaps for products, collections and pages as shown below. The sitemap can not be edited manually, but is kept up to date in real time. -->\u001b[39m\n\u001b[31m  <sitemap>\u001b[39m\n\u001b[31m    <loc>https://www.dermalogica.com/sitemap_products_1.xml?from=5710540046488&amp;to=9067377787032</loc>\u001b[39m\n\u001b[31m  </sitemap>\u001b[39m\n\u001b[31m  <sitemap>\u001b[39m\n\u001b[31m    <loc>https://www.dermalogica.com/sitemap_pages_1.xml?from=66308407448&amp;to=124611592344</loc>\u001b[39m\n\u001b[31m  </sitemap>\u001b[39m\n\u001b[31m  <sitemap>\u001b[39m\n\u001b[31m    <loc>https://www.dermalogica.com/sitemap_collections_1.xml?from=218588250264&amp;to=338171134104</loc>\u001b[39m\n\u001b[31m  </sitemap>\u001b[39m\n\u001b[31m  <sitemap>\u001b[39m\n\u001b[31m    <loc>https://www.dermalogica.com/sitemap_blogs_1.xml</loc>\u001b[39m\n\u001b[31m  </sitemap>\u001b[39m\n\u001b[31m</sitemapindex>\u001b[39m\n\u001b[31m\"\u001b[39m",
+      "humanError": "A quality check did not pass — the page behavior or content doesn't match expectations.",
+      "recommendation": "Compare the test expectation with the current live website. The feature may work differently now.",
+      "priority": "medium",
+      "screenshots": [],
+      "annotations": []
+    },
+    {
+      "id": "T102",
+      "test": "product appears in cart after adding",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Cart",
+      "feature": "product appears in cart after adding",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: locator.count: Target page, context or browser has been closed",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-b82d7-ppears-in-cart-after-adding-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T103",
+      "test": "cart displays product image",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Cart",
+      "feature": "Cart Product Image",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-b07b8-cart-displays-product-image-chromium\\test-failed-1.png"
+      ],
+      "annotations": [
+        {
+          "type": "warning",
+          "description": "Cart line item image not visible with expected selector"
+        }
+      ]
+    },
+    {
+      "id": "T104",
+      "test": "cart displays product price",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Cart",
+      "feature": "Cart Product Price",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: expect.toBeVisible: Target page, context or browser has been closed",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-7c902-cart-displays-product-price-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T105",
+      "test": "item can be removed from cart",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Cart",
+      "feature": "item can be removed from cart",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: locator.count: Target page, context or browser has been closed",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-1daad-em-can-be-removed-from-cart-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T106",
+      "test": "empty cart shows appropriate message",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Cart",
+      "feature": "Empty Cart State",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m\nError: page.textContent: Target page, context or browser has been closed",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-78d33-t-shows-appropriate-message-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T107",
+      "test": "cart subtotal is displayed",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Cart",
+      "feature": "Cart Subtotal",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-1f532--cart-subtotal-is-displayed-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T108",
+      "test": "checkout button is present in cart",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Cart",
+      "feature": "Dynamic Checkout Option",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-793c1-t-button-is-present-in-cart-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T109",
+      "test": "cart persists across page navigation",
+      "suite": "Shopping Cart @happy-path",
+      "pageArea": "Global",
+      "feature": "Cart Persistence",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "assertion_failed",
+      "rawError": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThan\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: > \u001b[32m0\u001b[39m\nReceived:   \u001b[31m0\u001b[39m",
+      "humanError": "A quality check did not pass — the page behavior or content doesn't match expectations.",
+      "recommendation": "Compare the test expectation with the current live website. The feature may work differently now.",
+      "priority": "medium",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-9fd64-ists-across-page-navigation-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    },
+    {
+      "id": "T110",
+      "test": "cart interactive widgets render alongside cart array",
+      "suite": "Shopping Cart — Third Party Integrations @smoke @cart",
+      "pageArea": "Cart",
+      "feature": "Cart Third-Party Widgets",
+      "viewport": "Desktop",
+      "status": "failed",
+      "duration": 0,
+      "errorType": "timeout",
+      "rawError": "\u001b[31mTest timeout of 60000ms exceeded.\u001b[39m",
+      "humanError": "The page or a specific element took longer than 60 seconds to load.",
+      "recommendation": "This can happen if the page has heavy scripts, slow third-party widgets, or the element no longer exists after a design change. Check the page load speed and verify the UI component is still present.",
+      "priority": "high",
+      "screenshots": [
+        "C:\\Users\\vinneydawson\\Documents\\Claude Code\\dermalogica\\website-qa-agent\\test-results\\shopping-cart-Shopping-Car-e5d00-render-alongside-cart-array-chromium\\test-failed-1.png"
+      ],
+      "annotations": []
+    }
+  ],
+  "pageAreas": [
+    "Cart",
+    "Collection",
+    "Global",
+    "Homepage",
+    "Landing Page",
+    "Login",
+    "PDP"
+  ],
+  "features": [
+    "ARIA landmarks are present",
+    "Add to Cart",
+    "Announcement Bar",
+    "Banner Carousel",
+    "Breadcrumb",
+    "Broken Images",
+    "Broken Links / 404",
+    "Cart Persistence",
+    "Cart Product Image",
+    "Cart Product Price",
+    "Cart Subtotal",
+    "Cart Third-Party Widgets",
+    "Checkout Flow",
+    "Checkout Form",
+    "Collection Page Load",
+    "Current Offer Popup",
+    "Dynamic Checkout Option",
+    "Empty Cart State",
+    "Face Mapping",
+    "Footer Links",
+    "Gallery",
+    "Image Alt Text",
+    "Klaviyo Email Signup",
+    "Login Form",
+    "Login Security",
+    "Logo",
+    "Mobile Navigation",
+    "PDP has no critical JavaScript errors",
+    "PDP loads within 5 seconds",
+    "PDP renders without overflow on mobile",
+    "Page Load Performance",
+    "Password Reset",
+    "Product Card Display",
+    "Product Description",
+    "Product Grid",
+    "Product Image",
+    "Product Price",
+    "Product Title",
+    "Quantity Input",
+    "Rewards Page",
+    "SEO Canonical URLs",
+    "SEO Heading Structure",
+    "SEO Indexing",
+    "SEO Meta Descriptions",
+    "SEO Open Graph",
+    "SEO Robots.txt",
+    "SEO Sitemap",
+    "SEO Structured Data",
+    "SEO Title Tags",
+    "Search",
+    "Site Navigation",
+    "Special Clearing Booster PDP loads",
+    "Store Locator",
+    "Variant Selectors",
+    "WCAG Accessibility Scan",
+    "Yotpo Star Reviews",
+    "Zendesk Chat Now",
+    "footer stacks vertically on mobile",
+    "form inputs have associated labels",
+    "hCaptcha detection on account forms",
+    "homepage has no critical JavaScript errors",
+    "homepage renders without horizontal overflow",
+    "item can be removed from cart",
+    "main navigation is keyboard accessible",
+    "page weight estimation for homepage",
+    "product appears in cart after adding",
+    "registration page is accessible",
+    "skip-to-content link is present",
+    "text is readable without zooming"
+  ]
+}
